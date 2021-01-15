@@ -8,4 +8,4 @@ Once when installing modules and initialize project:
 
 After that, at each session: npm run watch
 
-Minifi css: npm run production
+Minified compiled files : npm run production
