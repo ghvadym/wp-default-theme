@@ -1,0 +1,162 @@
+html {
+  font-family: "Arial", "Segoe UI", sans-serif;
+}
+
+body {
+  font-size: 16px;
+  line-height: normal;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  text-transform: uppercase;
+}
+
+p {
+  margin: 0 0 15px;
+}
+
+li {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+input:focus {
+  outline: none;
+}
+
+body.logged-in #header {
+  top: 32px;
+}
+
+.title {
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.subtitle {
+  font-size: 2rem;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.btn {
+  color: #ffffff;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 15px 30px;
+  border-radius: 4px;
+  background-color: transparent;
+  line-height: 1;
+  border: 1px transparent;
+  cursor: pointer;
+}
+
+.bg_img {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 15px;
+}
+
+.col, .col-6, .col-4, .col-3, .col-md, .col-md-6, .col-md-4, .col-md-3, .col-sm, .col-sm-6, .col-sm-4, .col-sm-3 {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  padding: 0 15px;
+}
+
+.col {
+  max-width: 100%;
+}
+
+.col-6 {
+  flex: 0 0 49%;
+  max-width: 49%;
+}
+
+.col-4 {
+  flex: 0 0 33%;
+  max-width: 33%;
+}
+
+.col-3 {
+  flex: 0 0 24%;
+  max-width: 24%;
+}
+
+@media (min-width: 769px) {
+  .col-md {
+    max-width: 100%;
+  }
+
+  .col-md-6 {
+    flex: 0 0 49%;
+    max-width: 49%;
+  }
+
+  .col-md-4 {
+    flex: 0 0 33%;
+    max-width: 33%;
+  }
+
+  .col-md-3 {
+    flex: 0 0 24%;
+    max-width: 24%;
+  }
+}
+@media (min-width: 567px) {
+  .col-sm {
+    max-width: 100%;
+  }
+
+  .col-sm-6 {
+    flex: 0 0 49%;
+    max-width: 49%;
+  }
+
+  .col-sm-4 {
+    flex: 0 0 33%;
+    max-width: 33%;
+  }
+
+  .col-sm-3 {
+    flex: 0 0 24%;
+    max-width: 24%;
+  }
+}
+header {
+  color: black;
+  background: white;
+}
+
+/*# sourceMappingURL=app.css.map*/
